@@ -8,11 +8,11 @@ import Footer from "./Components/Footer";
 
 const App = () => {
     return (
-        <Hashrouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
             </Routes>
-        </Hashrouter>
+        </HashRouter>
     );
 };
 
