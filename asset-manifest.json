@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/McLaughlin-Portfolio/static/css/main.a3fed2d5.css",
+    "main.js": "/McLaughlin-Portfolio/static/js/main.ac34f773.js",
+    "index.html": "/McLaughlin-Portfolio/index.html",
+    "main.a3fed2d5.css.map": "/McLaughlin-Portfolio/static/css/main.a3fed2d5.css.map",
+    "main.ac34f773.js.map": "/McLaughlin-Portfolio/static/js/main.ac34f773.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3fed2d5.css",
+    "static/js/main.ac34f773.js"
+  ]
+}
