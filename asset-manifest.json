@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/McLaughlin-Portfolio/static/css/main.ddbb8a44.css",
-    "main.js": "/McLaughlin-Portfolio/static/js/main.31a97b0c.js",
-    "static/media/lettie-products.PNG": "/McLaughlin-Portfolio/static/media/lettie-products.90fd251e3341ea22f377.PNG",
-    "static/media/lettie-hero.PNG": "/McLaughlin-Portfolio/static/media/lettie-hero.4aeca256094f4c726150.PNG",
-    "static/media/lettie-journey.png": "/McLaughlin-Portfolio/static/media/lettie-journey.7ec3fcc4c6692c324137.png",
-    "static/media/lettie-sketches.PNG": "/McLaughlin-Portfolio/static/media/lettie-sketches.7a8d3c949c6510a4e602.PNG",
-    "static/media/lettie-cart.PNG": "/McLaughlin-Portfolio/static/media/lettie-cart.8d16361ccd1d3b11efd5.PNG",
-    "static/media/figurative-hero.PNG": "/McLaughlin-Portfolio/static/media/figurative-hero.cffa903a579a5deb95a6.PNG",
-    "static/media/lettie-persona.png": "/McLaughlin-Portfolio/static/media/lettie-persona.a0ab234755fa19f15abb.png",
-    "static/media/lettie-logo.png": "/McLaughlin-Portfolio/static/media/lettie-logo.de3cf877a2a07c5b2526.png",
-    "static/media/lettie-wireframes.PNG": "/McLaughlin-Portfolio/static/media/lettie-wireframes.4640c27a5410f2b4e32d.PNG",
-    "static/media/lettie-typography.PNG": "/McLaughlin-Portfolio/static/media/lettie-typography.fa17e59f76bc26405c68.PNG",
-    "static/media/lettie-colors.PNG": "/McLaughlin-Portfolio/static/media/lettie-colors.54dee50d9cd28f8190c1.PNG",
-    "static/media/lettie-navigation.png": "/McLaughlin-Portfolio/static/media/lettie-navigation.cba7c596e39b8af9202b.png",
-    "index.html": "/McLaughlin-Portfolio/index.html",
-    "main.ddbb8a44.css.map": "/McLaughlin-Portfolio/static/css/main.ddbb8a44.css.map",
-    "main.31a97b0c.js.map": "/McLaughlin-Portfolio/static/js/main.31a97b0c.js.map"
+    "main.css": "/Portfolio/static/css/main.ddbb8a44.css",
+    "main.js": "/Portfolio/static/js/main.91d06f1b.js",
+    "static/media/lettie-products.PNG": "/Portfolio/static/media/lettie-products.90fd251e3341ea22f377.PNG",
+    "static/media/lettie-hero.PNG": "/Portfolio/static/media/lettie-hero.4aeca256094f4c726150.PNG",
+    "static/media/lettie-journey.png": "/Portfolio/static/media/lettie-journey.7ec3fcc4c6692c324137.png",
+    "static/media/lettie-sketches.PNG": "/Portfolio/static/media/lettie-sketches.7a8d3c949c6510a4e602.PNG",
+    "static/media/lettie-cart.PNG": "/Portfolio/static/media/lettie-cart.8d16361ccd1d3b11efd5.PNG",
+    "static/media/figurative-hero.PNG": "/Portfolio/static/media/figurative-hero.cffa903a579a5deb95a6.PNG",
+    "static/media/lettie-persona.png": "/Portfolio/static/media/lettie-persona.a0ab234755fa19f15abb.png",
+    "static/media/lettie-logo.png": "/Portfolio/static/media/lettie-logo.de3cf877a2a07c5b2526.png",
+    "static/media/lettie-wireframes.PNG": "/Portfolio/static/media/lettie-wireframes.4640c27a5410f2b4e32d.PNG",
+    "static/media/lettie-typography.PNG": "/Portfolio/static/media/lettie-typography.fa17e59f76bc26405c68.PNG",
+    "static/media/lettie-colors.PNG": "/Portfolio/static/media/lettie-colors.54dee50d9cd28f8190c1.PNG",
+    "static/media/lettie-navigation.png": "/Portfolio/static/media/lettie-navigation.cba7c596e39b8af9202b.png",
+    "index.html": "/Portfolio/index.html",
+    "main.ddbb8a44.css.map": "/Portfolio/static/css/main.ddbb8a44.css.map",
+    "main.91d06f1b.js.map": "/Portfolio/static/js/main.91d06f1b.js.map"
   },
   "entrypoints": [
     "static/css/main.ddbb8a44.css",
-    "static/js/main.31a97b0c.js"
+    "static/js/main.91d06f1b.js"
   ]
 }
