@@ -16,8 +16,8 @@ const Contact = () => {
                     >
                         jennagmclaughlin@gmail.com
                     </a>
-                    {/* LinkedIn */}
-                    <h4 className="mt-6 mb-1 font-semibold text-2xl">LinkedIn</h4>
+                    {/* Connect */}
+                    <h4 className="mt-6 mb-1 font-semibold text-2xl">Connect</h4>
                     <a
                         href="https://www.linkedin.com/in/jenna-g-mclaughlin/"
                         title="LinkedIn"
@@ -25,9 +25,19 @@ const Contact = () => {
                         rel="noopener noreferrer"
                         className="text-xl relative after:bg-white after:absolute after:h-[1px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200"
                     >
-                        jenna-g-mclaughlin
+                        <i class="fa-brands fa-linkedin"></i> &nbsp;LinkedIn
                     </a>
-                    <div className="mt-24">Site &copy; Jenna McLaughlin 2023</div>
+                    <br />
+                    <a
+                        href="https://www.behance.net/jennamclaughlin1"
+                        title="LinkedIn"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-2 inline-block text-xl relative after:bg-white after:absolute after:h-[1px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200"
+                    >
+                        <i class="fa-brands fa-behance"></i> &nbsp;Behance
+                    </a>
+                    <div className="mt-24">Site code &copy; Jenna McLaughlin 2023</div>
                 </div>
             </div>
         </footer>

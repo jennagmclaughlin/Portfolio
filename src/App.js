@@ -5,6 +5,7 @@ import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import LettiesNursery from "./Pages/LettiesNursery";
+import FeverGroups from "./Pages/FeverGroups";
 import Figurative from "./Pages/Figurative";
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/letties-nursery" element={<LettiesNursery />} />
+                <Route path="/fever-groups" element={<FeverGroups />} />
                 <Route path="/figurative" element={<Figurative />} />
             </Routes>
         </HashRouter>
