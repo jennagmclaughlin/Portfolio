@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const Header = () => {
     return (
-        <header className="bg-gradient-to-tl from-pink to-blue w-full min-h-[800px] h-screen md:snap-center relative z-[1]">
+        <header className="bg-gradient-to-tl from-pink to-blue w-full min-h-[800px] h-screen relative z-[1]">
             <Navbar className="absolute top-0" />
             <div className="container h-full flex flex-col items-start justify-center p-4 mx-auto text-center lg:text-left">
                 <h3 className="text-white text-xl mb-4 uppercase">PASSIONATE, CREATIVE, TEAM PLAYER</h3>

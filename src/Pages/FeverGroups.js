@@ -33,7 +33,7 @@ const FeverGroups = () => {
                     <li>Visual Studio Code (Foundation)</li>
                 </ul>
 
-                {/* Target audience */}
+                {/* Code */}
                 <h3 className="mt-8 text-3xl font-semibold">Code</h3>
                 <p className="lg:w-[75ch] mt-4">Since the wireframes and assets were provided to me, all I had to do was code.</p>
                 <h6 className="mt-4">Hero</h6>
