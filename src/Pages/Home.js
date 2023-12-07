@@ -44,7 +44,9 @@ const Home = () => {
                         <div className="rounded-xl w-full hover:scale-105 py-4 px-6 lg:flex-1 flex flex-col justify-center items-start card-shadow transition-transform duration-200">
                             <img src={ShirtHero} alt="Custom Shirt Hero" className="rounded-xl w-full h-[150px] md:h-[260px] object-cover object-center"></img>
                             <h4 className="mt-6 text-2xl font-semibold">3D Custom Shirt</h4>
-                            <p className="mt-3 text-gray-800">An independent case study utilizing React Three Fiber, Dalle-3 and Nodemon to create an interactive web app.</p>
+                            <p className="mt-3 text-gray-800">
+                                An independent case study utilizing React Three Fiber, Framer Motion, Dalle-3 and Nodemon to create an interactive web app.
+                            </p>
                             <div className="w-full mt-4 flex items-center justify-between md:justify-start">
                                 <Link to={`/custom-shirt`}>
                                     <button className="bg-gradient-to-tr from-pink to-blue hover:from-dark-blue hover:to-dark-blue hover:text-white rounded py-2 px-6 md:mr-6 transition-all duration-200">
