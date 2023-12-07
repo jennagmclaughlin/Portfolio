@@ -5,6 +5,7 @@ import Contact from "../Components/Contact";
 import Header from "../Components/Header";
 // import images
 import LettieHero from "../Components/Img/lettie-hero.PNG";
+import ShirtHero from "../Components/Img/shirt-hero.PNG";
 import FeverHero from "../Components/Img/fever-hero.PNG";
 import FigurativeHero from "../Components/Img/figurative-hero.PNG";
 
@@ -39,9 +40,34 @@ const Home = () => {
                                 </a>
                             </div>
                         </div>
+                        {/* Custom Shirt */}
+                        <div className="rounded-xl w-full hover:scale-105 py-4 px-6 lg:flex-1 flex flex-col justify-center items-start card-shadow transition-transform duration-200">
+                            <img src={ShirtHero} alt="Custom Shirt Hero" className="rounded-xl w-full h-[150px] md:h-[260px] object-cover object-center"></img>
+                            <h4 className="mt-6 text-2xl font-semibold">3D Custom Shirt</h4>
+                            <p className="mt-3 text-gray-800">An independent case study utilizing React Three Fiber, Dalle-3 and Nodemon to create an interactive web app.</p>
+                            <div className="w-full mt-4 flex items-center justify-between md:justify-start">
+                                <Link to={`/custom-shirt`}>
+                                    <button className="bg-gradient-to-tr from-pink to-blue hover:from-dark-blue hover:to-dark-blue hover:text-white rounded py-2 px-6 md:mr-6 transition-all duration-200">
+                                        Explore
+                                    </button>
+                                </Link>
+                                <a
+                                    href="https://github.com/jennagmclaughlin/CustomShirt"
+                                    title="View GitHub Repository"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-sm text-gray-500 relative after:bg-gray-500 after:absolute after:h-[1px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200"
+                                >
+                                    View GitHub repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Portfolio row 2 */}
+                    <div className="flex flex-col lg:flex-row lg:items-stretch items-center lg:justify-between gap-y-4 lg:gap-x-8 mt-6">
                         {/* Fever page */}
                         <div className="rounded-xl w-full hover:scale-105 py-4 px-6 lg:flex-1 flex flex-col justify-center items-start card-shadow transition-transform duration-200">
-                            <img src={FeverHero} alt="Lettie's Nursery" className="rounded-xl w-full h-[150px] md:h-[260px] object-cover object-top"></img>
+                            <img src={FeverHero} alt="Fever Hero" className="rounded-xl w-full h-[150px] md:h-[260px] object-cover object-top"></img>
                             <h4 className="mt-6 text-2xl font-semibold">Fever Groups</h4>
                             <p className="mt-3 text-gray-800">A WordPress and Foundation webpage created to boost mass ticket sales for Pacers Sports & Entertainment.</p>
                             <div className="w-full mt-4 flex items-center justify-between md:justify-start">
@@ -61,11 +87,9 @@ const Home = () => {
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    {/* Portfolio row 2 */}
-                    <div className="flex flex-col lg:flex-row lg:items-stretch items-center lg:justify-between gap-y-4 lg:gap-x-8 mt-6">
+                        {/* Figurative Language */}
                         <div className="rounded-xl w-full hover:scale-105 py-4 px-6 lg:flex-1 flex flex-col justify-center items-start card-shadow transition-transform duration-200">
-                            <img src={FigurativeHero} alt="Lettie's Nursery" className="rounded-xl w-full h-[150px] md:h-[260px] object-cover object-top"></img>
+                            <img src={FigurativeHero} alt="Figurative Language Hero" className="rounded-xl w-full h-[150px] md:h-[260px] object-cover object-top"></img>
                             <h4 className="mt-6 text-2xl font-semibold">Figurative Language</h4>
                             <p className="mt-3 text-gray-800">A group collaboration on an educational app targeted towards young children made with Bootstrap.</p>
                             <div className="w-full mt-4 flex items-center justify-between md:justify-start">
