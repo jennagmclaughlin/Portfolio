@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import components
-import Contact from "../Components/Contact";
 import Header from "../Components/Header";
+import Timeline from "../Components/Timeline";
+import Footer from "../Components/Footer";
 // import images
 import LettieHero from "../Components/Img/lettie-hero.PNG";
 import ShirtHero from "../Components/Img/shirt-hero.PNG";
@@ -14,7 +15,8 @@ const Home = () => {
         <div className="bg-white w-full relative z-[1]">
             <Header />
             <main className="bg-white h-auto xl:min-h-screen container p-4 py-12 relative mx-auto">
-                <section className="w-full">
+                <Timeline />
+                <section className="w-full mt-12">
                     <h2 className="text-dark-blue font-bold text-center text-4xl md:text-6xl">Portfolio</h2>
                     {/* Portfolio row 1 */}
                     <div className="flex flex-col lg:flex-row lg:items-stretch items-center lg:justify-between gap-y-4 lg:gap-x-8 mt-6">
@@ -114,7 +116,7 @@ const Home = () => {
                     </div>
                 </section>
             </main>
-            <Contact />
+            <Footer />
         </div>
     );
 };

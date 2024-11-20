@@ -1,9 +1,9 @@
 import React from "react";
 
-const Footer = () => {
+const Contact = () => {
     return (
-        <footer className="bg-dark-blue">
-            <div className="container py-24 px-4 flex items-center justify-start mx-auto text-white">
+        <footer className="bg-dark-blue md:h-screen">
+            <div className="container h-full py-8 px-4 flex items-center justify-start mx-auto text-white">
                 <div className="w-full">
                     <h2 className="font-bold text-5xl">Let's get in touch!</h2>
                     <p className="lg:w-[75ch] mt-4">I'm open to discussion about projects or work Mo-Fri from 9-5.</p>
@@ -37,11 +37,11 @@ const Footer = () => {
                     >
                         <i class="fa-brands fa-behance"></i> &nbsp;Behance
                     </a>
-                    <div className="mt-24">Site code &copy; Jenna McLaughlin 2023</div>
+                    <div className="mt-24">Site code &copy; Jenna McLaughlin 2023-2025</div>
                 </div>
             </div>
         </footer>
     );
 };
 
-export default Footer;
+export default Contact;
